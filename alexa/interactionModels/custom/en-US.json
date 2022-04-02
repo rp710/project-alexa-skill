@@ -1,0 +1,170 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "jack assistance",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "hello",
+            "how are you",
+            "say hi world",
+            "say hi",
+            "hi",
+            "say hello world",
+            "say hello"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "PathInfoIntent",
+          "slots": [],
+          "samples": [
+            "tell me about yourself",
+            "what can you do"
+          ]
+        },
+        {
+          "name": "PathRequestIntent",
+          "slots": [
+            {
+              "name": "foodtype",
+              "type": "FOODTYPE"
+            },
+            {
+              "name": "type",
+              "type": "DEPT"
+            }
+          ],
+          "samples": [
+            "show me the way to head of {type} department",
+            "where can i meet head of {type} department"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "plums"
+              }
+            },
+            {
+              "name": {
+                "value": "peas"
+              }
+            },
+            {
+              "name": {
+                "value": "cucumbers"
+              }
+            },
+            {
+              "name": {
+                "value": "sweet potatoes"
+              }
+            },
+            {
+              "name": {
+                "value": "potatoes"
+              }
+            },
+            {
+              "name": {
+                "value": "melons"
+              }
+            },
+            {
+              "name": {
+                "value": "tomatoes"
+              }
+            },
+            {
+              "name": {
+                "value": "oranges"
+              }
+            },
+            {
+              "name": {
+                "value": "strawberries"
+              }
+            },
+            {
+              "name": {
+                "value": "bananas"
+              }
+            },
+            {
+              "name": {
+                "value": "apples"
+              }
+            }
+          ],
+          "name": "FOODTYPE"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "electrical"
+              }
+            },
+            {
+              "name": {
+                "value": "electronics and communication"
+              }
+            },
+            {
+              "name": {
+                "value": "civil"
+              }
+            },
+            {
+              "name": {
+                "value": "mechanical"
+              }
+            },
+            {
+              "name": {
+                "value": "information technology"
+              }
+            },
+            {
+              "name": {
+                "value": "computer science"
+              }
+            },
+            {
+              "name": {
+                "value": "computer"
+              }
+            }
+          ],
+          "name": "DEPT"
+        }
+      ]
+    }
+  },
+  "version": "4"
+}
